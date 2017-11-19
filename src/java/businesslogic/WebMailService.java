@@ -75,7 +75,7 @@ public class WebMailService {
         }
 
         // address the message
-        Address fromAddress = new InternetAddress("cprg352@gmail.com");
+        Address fromAddress = new InternetAddress("jcoop876@gmail.com");
         Address toAddress = new InternetAddress(to);
         message.setFrom(fromAddress);
         message.setRecipient(Message.RecipientType.TO, toAddress);
